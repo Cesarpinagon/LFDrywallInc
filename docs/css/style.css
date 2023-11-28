@@ -1,0 +1,35 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #f7f7f7;
+    margin-top: 50px;
+}
+.jumbotron{
+ border-radius: 0px;
+}
+.jumbotron h1{
+    color: #f7ac19;
+}
+.jumbotron p{
+    color: #7fceff;
+}
+.col-md-6{
+    border-radius: 3rem;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #fdfefe;
+}
+img{
+    border-radius: 2rem;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#contact-me{
+    padding: 20px;
+}
