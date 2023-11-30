@@ -15,7 +15,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-dark">
     <div class="container">
         <a class="navbar-brand" href="https://www.facebook.com/profile.php?id=100057269866777">
-            <img src="images/logo_drywall.svg" alt="Bootstrap" width="30" height="24">
+            <img src="images/logo_drywall.svg" alt="Bootstrap" width="60" height="48">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -23,13 +23,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#" style="color: aliceblue;">Home <span class="sr-only">(current)</span></a>
+                    <a class="homeLink nav-link" href="#" id="home" style="color: aliceblue;">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact-me" style="color: aliceblue;">Contact</a>
+                    <a class="contactLink nav-link" id="contact" href="#contact-me" style="color: aliceblue;">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" style="color: aliceblue;">Services</a>
+                    <a class="serviceLink nav-link" id="service" href="#" style="color: aliceblue;">Services</a>
                 </li>
             </ul>
         </div>
@@ -39,7 +39,7 @@
     <!-- Jumbotron -->
 <div class="jumbotron" style="background-image: linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url(images/main_bg.jpg); background-size: cover; height: 700px;">
     <h1 class="display-4">LF Drywall Inc : High-Quality Drywall Specialists</h1>
-    <p class="lead" style="color: aliceblue;">Where expertise meets excellence! We specialize in providing top-tier services encompassing 
+    <p class="lead" style="color: aliceblue; font-weight: 400;">Where expertise meets excellence! We specialize in providing top-tier services encompassing 
         metal stud framing installation, insulation, drywall, taping, and texturing. Our commitment to delivering 
         exceptional quality and precision sets us apart in the construction industry.</p>
     <hr class="my-4">
@@ -85,19 +85,21 @@
 <!-- Contact Me -->
 <div class="container" id="contact-me">
     <h2>Contact Me</h2>
-    <form action="https://formsubmit.co/pinaflamier@gmail.com" method="POST">
+    <form action="https://formsubmit.co/lfdrywall14@gmail.com" method="POST">
+        
         <div class="form-group">
             <label for="name">Name</label>
-            <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
-        </div>
-        <div class="form-group">
+            <input name="name" type="text" class="form-control" id="name" placeholder="Enter your name">
+
+
             <label for="email">Email</label>
-            <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email">
-        </div>
-        <div class="form-group">
+            <input name="email" type="email" class="form-control" id="email" placeholder="Enter your email">
+
+
             <label for="message">Message</label>
-            <textarea class="form-control" id="message" name="message" rows="3" placeholder="Enter your message"></textarea>
+            <textarea name="message" class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
         </div>
+           
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 </div>
@@ -123,4 +125,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
+
+<script src="../docs/JS/script.js"></script>
 </html>
