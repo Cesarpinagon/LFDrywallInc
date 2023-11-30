@@ -10,6 +10,7 @@ body{
 }
 .jumbotron h1{
     color: #f7ac19;
+    font-weight: 500;
 }
 .jumbotron p{
     color: #7fceff;
@@ -32,4 +33,9 @@ img{
 
 #contact-me{
     padding: 20px;
+}
+
+label{
+
+    color: #575757;
 }
