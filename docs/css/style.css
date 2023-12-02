@@ -43,7 +43,30 @@ img{
     margin-top: 20px;
     background-color: #6d6b68;
 }
-
+.carousel-item{
+    border-radius: 2rem;
+    padding: 10px;
+}
+.carousel, .carousel-item {
+    height: 500px;
+    width: 100%;
+}
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.carousel-indicators li {
+    background-color: red;
+}
+.carousel-indicators .active {
+    background-color: green;
+}
+@media (max-width: 768px) {
+    .carousel-control-prev, .carousel-control-next {
+        display: none;
+    }
+}
 #contact-me{
     padding: 20px;
 }
